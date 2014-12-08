@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--<style name="AppTheme" parent="android:Theme.Material.Light">-->
-        <!--Not required as the AppCombat theme will extend material theme on Android L
+    <style name="AppTheme" parent="AppTheme.base">
+        <!--AppCombat theme will extend material theme on Android L
         http://stackoverflow.com/questions/24545394/how-to-use-actionbaractivity-with-theme-material-->
-    <!--</style>-->
+        <item name="android:navigationBarColor">#4CAF50</item>
+    </style>
 </resources>
