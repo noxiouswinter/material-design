@@ -5,6 +5,9 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#4CAF50</item>
         <item name="colorPrimaryDark">#1B5E20</item>
+        <item name="colorAccent">#81C784</item>
+        <!--<item name="colorControlNormal">#2E7D32</item>-->
+
     </style>
 
     <style name="AppTheme" parent="AppTheme.base"></style>
