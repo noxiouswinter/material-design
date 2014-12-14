@@ -13,7 +13,7 @@ public class ToolbarActionbarActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_toolbaractionbar);
+        setContentView(R.layout.activity_toolbar_actionbar);
         Toolbar toolbar = (Toolbar) findViewById(R.id.tbMain);
         setSupportActionBar(toolbar);
     }

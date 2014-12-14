@@ -12,7 +12,7 @@ public class ActionbarDrawerActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_action_bar_drawer);
+        setContentView(R.layout.activity_actionbar_drawer);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.tbMain);
         setSupportActionBar(toolbar);
