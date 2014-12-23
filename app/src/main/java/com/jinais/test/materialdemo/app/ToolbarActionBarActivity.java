@@ -1,6 +1,8 @@
 package com.jinais.test.materialdemo.app;
 
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -10,12 +12,17 @@ import android.view.MenuItem;
 
 public class ToolbarActionbarActivity extends ActionBarActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toolbar_actionbar);
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.tbMain);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -35,6 +42,9 @@ public class ToolbarActionbarActivity extends ActionBarActivity {
                 return true;
             case R.id.action_settings:
                 Log.d("DEBUG", "settings");
+                return true;
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
