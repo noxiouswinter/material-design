@@ -19,7 +19,7 @@ public class ActionbarDrawerActivity extends ActionBarActivity {
 
         DrawerLayout drawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
 
-        NavigationDrawerFragment navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentNavigationDrawer);
+        NavigationDrawerFragment navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.fragment_navigation_drawer);
         navigationDrawerFragment.setUp(drawerLayout, toolbar);
     }
 }
