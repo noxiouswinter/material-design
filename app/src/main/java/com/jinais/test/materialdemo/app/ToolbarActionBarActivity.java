@@ -21,7 +21,7 @@ public class ToolbarActionbarActivity extends ActionBarActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.tbMain);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setHomeButtonEnabled(true);
+//        getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
