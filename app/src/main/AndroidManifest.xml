@@ -17,18 +17,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ToolbarActionbarActivity"
+            android:name="com.jinais.test.materialdemo.app.ToolbarActionbarActivity"
             android:label="@string/title_activity_toolbar_actionbar" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
         <activity
-            android:name=".ActionbarDrawerActivity"
+            android:name="com.jinais.test.materialdemo.app.ActionbarDrawerActivity"
             android:label="@string/title_activity_actionbar_drawer" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name="com.jinais.test.materialdemo.app.TabsActivity"
+            android:label="@string/title_activity_tabs" >
         </activity>
     </application>
 

@@ -24,4 +24,9 @@ public class MainActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
+    public void onClickBTabsActivity(View view) {
+        Intent intent = new Intent(this, TabsActivity.class);
+        startActivity(intent);
+    }
+
 }

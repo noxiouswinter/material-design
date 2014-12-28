@@ -8,9 +8,12 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_actionbar_drawer">ActionbarDrawerActivity</string>
     <string name="title_activity_toolbar_actionbar">ToolbarActionbar</string>
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_blank_fragment_tab_a">Hello blank fragment tab A</string>
+    <string name="hello_blank_fragment_tab_b">Hello blank fragment tab B</string>
+    <string name="hello_blank_fragment_tab_c">Hello blank fragment tab C</string>
     <string name="drawerOpen">Drawer Open</string>
     <string name="drawerClosed">Drawer Closed</string>
+    <string name="title_activity_tabs">TabsActivity</string>
 
 </resources>
