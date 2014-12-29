@@ -34,6 +34,10 @@
             android:name="com.jinais.test.materialdemo.app.TabsActivity"
             android:label="@string/title_activity_tabs" >
         </activity>
+        <activity
+            android:name=".TabsFixedActivity"
+            android:label="@string/title_activity_tabs_fixed" >
+        </activity>
     </application>
 
 </manifest>

@@ -25,4 +25,10 @@
         android:text="TabsActivity"
         android:id="@+id/bTabsActivity"
         android:onClick="onClickBTabsActivity"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TabsFixedActivity"
+        android:id="@+id/bTabsFixedActivity"
+        android:onClick="onClickBTabsFixedActivity"/>
 </LinearLayout>

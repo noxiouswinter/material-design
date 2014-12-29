@@ -15,5 +15,6 @@
     <string name="drawerOpen">Drawer Open</string>
     <string name="drawerClosed">Drawer Closed</string>
     <string name="title_activity_tabs">TabsActivity</string>
+    <string name="title_activity_tabs_fixed">TabsFixed</string>
 
 </resources>
