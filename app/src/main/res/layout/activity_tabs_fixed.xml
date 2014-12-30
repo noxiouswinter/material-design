@@ -8,8 +8,10 @@
 
     <com.example.android.common.view.SlidingTabLayout
         android:id="@+id/sliding_tabs"
+        android:background="@color/sliding_tab_background_color"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/actionbar_elevation"/>
 
     <android.support.v4.view.ViewPager
         xmlns:android="http://schemas.android.com/apk/res/android"

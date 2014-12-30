@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primaryColor">#4CAF50</color>
-    <color name="primaryColorDark">#388E3C</color>
-    <color name="accentColor">#8963BA</color>
+    <color name="theme_primary_color">#4CAF50</color>
+    <color name="theme_primary_color_dark">#388E3C</color>
+    <color name="theme_accent_color">#8963BA</color>
+
+    <color name="sliding_tab_background_color">@color/theme_primary_color</color>
+
 </resources>

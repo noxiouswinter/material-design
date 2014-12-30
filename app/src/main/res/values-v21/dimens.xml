@@ -1,0 +1,5 @@
+<resources>
+
+    <dimen name="actionbar_elevation">4dp</dimen>
+
+</resources>
