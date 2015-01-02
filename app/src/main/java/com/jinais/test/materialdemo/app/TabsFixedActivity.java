@@ -26,7 +26,7 @@ public class TabsFixedActivity extends ActionBarActivity {
         setSupportActionBar(toolbar);
 
         SlidingTabLayout slidingTabLayout = (SlidingTabLayout)findViewById(R.id.sliding_tabs);
-        slidingTabLayout.setCustomTabView(R.layout.tab_indicator, android.R.id.text1);
+        slidingTabLayout.setCustomTabView(R.layout.tab_indicator, R.id.tvTabHeaderText);
         slidingTabLayout.setSelectedIndicatorColors(getResources().getColor(R.color.theme_accent_color));
         slidingTabLayout.setDistributeEvenly(true);
         slidingTabLayout.setViewPager(viewPager);

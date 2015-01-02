@@ -5,5 +5,4 @@
     <color name="theme_accent_color">#8963BA</color>
 
     <color name="sliding_tab_background_color">@color/theme_primary_color</color>
-
 </resources>
